@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery App</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ===header=== -->
+    <header>
+      <!-- container -->
+      <div class="container mx-auto px-5">
+        <nav class="flex items-center justify-between py-4">
+          <!-- logo -->
+          <div class="w-32 md:w-full z-20">
+            <img src="./img/logo.png" alt="logo websites" />
+          </div>
+          <!-- menu  -->
+          <ul id="menu" class="invisible md:visible c-menu">
+            <li class="m-12 md:m-0">
+              <a class="c-link" href="#">Home</a>
+            </li>
+            <li class="m-12 md:m-0">
+              <a class="c-link" href="#">Product</a>
+            </li>
+            <li class="m-12 md:m-0">
+              <a class="c-link" href="#">FAQ</a>
+            </li>
+            <li class="m-12 md:m-0">
+              <a class="c-link" href="#">Contacts</a>
+            </li>
+          </ul>
+          <!-- menu button  -->
+          <div
+            id="menu-button"
+            class="md:hidden z-20 text-red-600 cursor-pointer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ===Banner=== -->
+    <section>
+      <div
+        style="background-image: url(./img/banner.png)"
+        class="w-full bg-no-repeat bg-cover h-custom relative"
+      >
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center"
+        >
+          <!-- tag -->
+          <p class="text-xl mb-5">Food App</p>
+          <!-- title -->
+          <h1
+            class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl"
+          >
+            Why stay hungry when you can order form Bella Onojie
+          </h1>
+          <!-- desc -->
+          <p class="text-xl font-light mb-5">
+            Download the bella onoje’s food app now on
+          </p>
+          <!-- store button  -->
+          <div class="flex flex-col justify-center md:flex-row gap-4">
+            <button
+              class="border border-transparent bg-red-500 px-10 py-3 rounded-full hover:bg-transparent hover:border-white transition-all"
+            >
+              PlayStore
+            </button>
+            <button
+              class="border border-white bg-transparent px-10 py-3 rounded-full hover:border-transparent hover:bg-red-500 transition-all"
+            >
+              AppStore
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===App Screen=== -->
+    <section class="relative">
+      <div class="absolute top-1/2 left-1/2 -translate-x-2/3 -translate-y-1/4">
+        <img
+          class="max-w-none w-screen pl-20 md:w-auto"
+          src="./img/app-img.png"
+          alt="App Screen"
+        />
+      </div>
+    </section>
+    <!-- === App Step === -->
+    <section class="pt-96 mt-28 sm:pt-40-c md:mt-0">
+      <!-- container  -->
+      <div class="container mx-auto px-4">
+        <hr class="w-4/5 h-0.5 mx-auto bg-gray-300 md:w-2/5" />
+        <h2 class="text-center text-4xl font-semibold my-12">
+          How the app works
+        </h2>
+        <!-- step-1  -->
+        <div class="step-container">
+          <!-- img  -->
+          <div>
+            <img src="./img/app-1.png" alt="App Screen" />
+          </div>
+          <!-- text  -->
+          <div class="step-text">
+            <!-- tag  -->
+            <span class="step-tag">Create an account</span>
+            <!-- title  -->
+            <h2 class="step-title">
+              Create/login to an existing account to get started
+            </h2>
+            <!-- desc  -->
+            <p class="step-desc">
+              An account is created with your email and a desired password
+            </p>
+          </div>
+        </div>
+
+        <!-- step-2  -->
+
+        <div class="step-container md:flex-row-reverse">
+          <!-- img  -->
+          <div>
+            <img src="./img/app-2.png" alt="App Screen" />
+          </div>
+          <!-- text  -->
+          <div class="step-text">
+            <!-- tag  -->
+            <span class="step-tag">Explore varieties</span>
+            <!-- title  -->
+            <h2 class="step-title">
+              Shop for your favorites meal as e dey hot.
+            </h2>
+            <!-- desc  -->
+            <p class="step-desc">
+              Shop for your favorite meals or drinks and enjoy while doing it.
+            </p>
+          </div>
+        </div>
+
+        <!-- step-3  -->
+        <div class="step-container">
+          <div>
+            <img src="./img/app-3.png" alt="App Screen" />
+          </div>
+          <!-- text  -->
+          <div class="step-text">
+            <!-- tag  -->
+            <span class="step-tag">Checkout</span>
+            <!-- title  -->
+            <h2 class="step-title">
+              When you done check out and get it delivered.
+            </h2>
+            <!-- desc  -->
+            <p class="step-desc">
+              When you done check out and get it delivered with ease.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===Dowload=== -->
+    <section>
+      <div
+        class="relative h-custom bg-no-repeat bg-cover w-full"
+        style="background-image: url(./img/download.png)"
+      >
+        <div
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
+        >
+          <!-- tiltle  -->
+          <h2
+            class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl"
+          >
+            Download the app now.
+          </h2>
+          <!-- desc  -->
+          <p class="text-xl mb-5 font-semibold md:leading-relaxed md:text-2x">
+            Available on your favorite store. Start your premium experience now
+          </p>
+          <!-- button  -->
+          <div class="flex flex-col gap-4 justify-center md:flex-row">
+            <button
+              class="border border-transparent bg-red-500 px-10 py-3 rounded-full hover:bg-transparent hover:border-white transition-all"
+            >
+              Buy Now
+            </button>
+            <button
+              class="border border-white bg-transparent px-10 py-3 rounded-full hover:border-transparent hover:bg-red-500 transition-all"
+            >
+              Try for free
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===Footer=== -->
+    <section>
+      <!-- container  -->
+      <div class="container mx-auto px-4">
+        <div
+          class="flex flex-col justify-between items-center py-5 md:flex-row"
+        >
+          <!-- logo  -->
+          <div>
+            <img class="w-32 md:w-full" src="./img/logo.png" alt="" />
+          </div>
+          <!-- contacts  -->
+          <div class="flex items-center mt-5">
+            <!-- phone  -->
+            <a href="tel:+84123456789" class="flex mx-4">
+              <!-- icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-red-500 mr-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+
+              <!-- number  -->
+              <p class="text-gray-500">+84:123456789</p>
+            </a>
+            <!-- email -->
+            <a href="mailto:forme@gmail.com" class="flex mx-4">
+              <!-- icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-blue-500 mr-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+
+              <!-- text  -->
+              <p class="text-gray-500">forme@gmail.com</p>
+            </a>
+          </div>
+        </div>
+        <div class="text-center my-4">
+          <p class="text-gray-500">
+            Copyright &copy; 2023 - designed by Danny Duong
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- main.js  -->
+    <script src="./main.js"></script>
+  </body>
+</html>

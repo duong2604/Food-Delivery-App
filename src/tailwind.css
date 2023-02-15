@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c-link {
+  @apply text-white text-xl md:text-black hover:text-red-600 transition duration-300 ease-in;
+}
+.c-menu {
+  @apply fixed z-20 top-0 left-0 w-full h-screen flex flex-col mr-10 justify-center items-center bg-gray-700 bg-opacity-90 md:static md:h-auto md:bg-transparent md:flex-row md:justify-between;
+}
+.step-container {
+  @apply flex flex-col justify-evenly items-center py-10 md:flex-row;
+}
+.step-text {
+  @apply text-center md:text-left;
+}
+.step-tag {
+  @apply text-red-500 font-semibold text-xl;
+}
+.step-title {
+  @apply text-blue-700 font-bold text-4xl leading-relaxed max-w-md py-5;
+}
+.step-desc {
+  @apply text-xl text-gray-500 font-light;
+}
